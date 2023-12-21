@@ -1,0 +1,24 @@
+python ./multiproc.py \
+    --nproc_per_node 4 \
+    --master_port 20000 \
+    ./main.py \
+    -data <path to dataset> \
+    --data-backend pytorch \
+    -a resnet50_SPM \
+    -j 4 \
+    -b 256 \
+    --lr 1.024 \
+    --optimizer-batch-size 1024 \
+    --momentum 0.875 \
+    --wd 3.0517578125e-05 \
+    --label-smoothing 0.1 \
+    --lr-schedule cosine \
+    --amp \
+    --static-loss-scale 128 \
+    --print-freq 10 \
+    --memory-format nhwc \
+    --epochs 90 \
+    --alpha_mac 0.5 \
+    --alpha_nuc 0.001 \
+    --target_ratio 0.59 \
+    --warmup 8
