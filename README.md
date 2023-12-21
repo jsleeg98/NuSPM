@@ -15,13 +15,13 @@ Our approach compresses ResNet50 on ImageNet without requiring additional resour
 
 **Comparison of Top-1 Accuracy according to MACs for compressed ResNet50 models on ImageNet**
 <div align="center">
-  <img width="50%" src="Figures/macs_acc_gragh_r6.png">
+  <img width="50%" src="Figures/macs_acc_gragh.png">
 </div>
 
 
 **Overall method**
 <div align="center">
-  <img width="70%" src="Figures/Reconfiguration_finalfinal_ref.jpg">
+  <img width="70%" src="Figures/Overall method.jpg">
 </div>
 
 ## Training & Reconfiguration
