@@ -1,6 +1,6 @@
 # Pruning from Scratch via Shared Pruning Module and Nuclear norm-based Regularization
 
-Official implementation of Pruning from Scratch via Shared Pruning Module and Nuclear norm-based Regularization (WACV 2024).
+Official implementation of [Pruning from Scratch via Shared Pruning Module and Nuclear norm-based Regularization](https://openaccess.thecvf.com/content/WACV2024/html/Lee_Pruning_From_Scratch_via_Shared_Pruning_Module_and_Nuclear_Norm-Based_WACV_2024_paper.html) (WACV 2024).
 
 ## Abstract
 
